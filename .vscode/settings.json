@@ -4,5 +4,7 @@
                 "*.yml": "github-actions"
         },
         "workbench.iconTheme": "material-icon-theme",
+        "editor.suggest.localityBonus": true,
+        "editor.tabCompletion": "on"
         
 }
