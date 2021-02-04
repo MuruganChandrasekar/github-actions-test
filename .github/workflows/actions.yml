@@ -7,14 +7,14 @@ on:
       - "feature/*"
       - "feature/**" 
       - "!feature/featC"
-  tags:
-    - "v1.*"
-  paths:
-    - "**.js"
-    - "!filename.js"
+    tags:
+      - "v1.*"
+    paths:
+      - "**.js"
+      - "!filename.js"
 
-  # paths-ignore:
-      #- 'docs/**'
+    # paths-ignore:
+        #- 'docs/**'
   #repository_dispatch:
   #  types: [build]
   #schedule:
