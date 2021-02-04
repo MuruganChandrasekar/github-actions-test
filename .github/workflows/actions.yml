@@ -14,7 +14,7 @@ on:
     - "!filename.js"
 
   # paths-ignore:
-      - 'docs/**'
+      #- 'docs/**'
   #repository_dispatch:
   #  types: [build]
   #schedule:
